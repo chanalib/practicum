@@ -1,0 +1,41 @@
+# .NET
+bin
+obj
+.user
+.suo
+.sln.ide
+.vs
+.vscode
+project.lock.json
+project.fragment.lock.json
+
+# React
+node_modules
+build
+dist
+.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Angular
+dist
+out-tsc
+node_modules
+.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDEs
+.vscode
+.idea
+.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
