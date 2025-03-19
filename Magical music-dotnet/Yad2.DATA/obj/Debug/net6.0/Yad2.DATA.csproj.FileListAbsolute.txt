@@ -1,0 +1,17 @@
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\bin\Debug\net6.0\Yad2.DATA.deps.json
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\bin\Debug\net6.0\Yad2.DATA.runtimeconfig.json
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\bin\Debug\net6.0\Yad2.DATA.dll
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\bin\Debug\net6.0\Yad2.DATA.pdb
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\bin\Debug\net6.0\Yad2.CORE.dll
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\bin\Debug\net6.0\Yad2.CORE.pdb
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.AssemblyInfo.cs
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.csproj.CopyComplete
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.dll
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\refint\Yad2.DATA.dll
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.pdb
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\Yad2.DATA.genruntimeconfig.cache
+C:\Users\user1\Documents\מלי\שנה ב\net core\Yad2\Yad2.DATA\obj\Debug\net6.0\ref\Yad2.DATA.dll

@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Yad2.CORE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Yad2.CORE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Yad2.CORE.dll": {}
+        }
+      },
+      "Yad2.SERVICE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Yad2.CORE": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Yad2.SERVICE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Yad2.SERVICE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Yad2.CORE/1.0.0": {
+      "type": "project",
+      "path": "../Yad2.CORE/Yad2.CORE.csproj",
+      "msbuildProject": "../Yad2.CORE/Yad2.CORE.csproj"
+    },
+    "Yad2.SERVICE/1.0.0": {
+      "type": "project",
+      "path": "../Yad2.SERVICE/Yad2.SERVICE.csproj",
+      "msbuildProject": "../Yad2.SERVICE/Yad2.SERVICE.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Yad2.SERVICE >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user1\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.API\\Yad2.API.csproj",
+      "projectName": "Yad2.API",
+      "projectPath": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.API\\Yad2.API.csproj",
+      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.SERVICE\\Yad2.SERVICE.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.SERVICE\\Yad2.SERVICE.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
