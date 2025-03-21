@@ -1,32 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.DATA\\MagicalMusic.DATA.csproj": {}
+    "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.DATA\\MagicalMusic.DATA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.CORE\\MagicalMusic.CORE.csproj": {
+    "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.CORE\\MagicalMusic.CORE.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj",
         "projectName": "MagicalMusic.CORE",
-        "projectPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.CORE\\MagicalMusic.CORE.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.CORE\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,14 +38,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            }
-          },
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -56,41 +51,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.DATA\\MagicalMusic.DATA.csproj": {
+    "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.DATA\\MagicalMusic.DATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.DATA\\MagicalMusic.DATA.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.DATA\\MagicalMusic.DATA.csproj",
         "projectName": "MagicalMusic.DATA",
-        "projectPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.DATA\\MagicalMusic.DATA.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.DATA\\MagicalMusic.DATA.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.DATA\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.DATA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.CORE\\MagicalMusic.CORE.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.CORE\\MagicalMusic.CORE.csproj"
+              "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj"
               }
             }
           }
@@ -102,18 +93,30 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.36, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.36, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

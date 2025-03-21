@@ -1,47 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Yad2.CORE/1.0.0": {
+    "net8.0": {
+      "Music.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Yad2.CORE.dll": {}
+          "bin/placeholder/Music.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Yad2.CORE.dll": {}
+          "bin/placeholder/Music.Core.dll": {}
         }
       },
-      "Yad2.SERVICE/1.0.0": {
+      "Music.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Yad2.CORE": "1.0.0"
+          "Music.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Yad2.SERVICE.dll": {}
+          "bin/placeholder/Music.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Yad2.SERVICE.dll": {}
+          "bin/placeholder/Music.Data.dll": {}
+        }
+      },
+      "Music.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Music.Core": "1.0.0",
+          "Music.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Music.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Music.Service.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Yad2.CORE/1.0.0": {
+    "Music.Core/1.0.0": {
       "type": "project",
-      "path": "../Yad2.CORE/Yad2.CORE.csproj",
-      "msbuildProject": "../Yad2.CORE/Yad2.CORE.csproj"
+      "path": "../Music.Core/Music.Core.csproj",
+      "msbuildProject": "../Music.Core/Music.Core.csproj"
     },
-    "Yad2.SERVICE/1.0.0": {
+    "Music.Data/1.0.0": {
       "type": "project",
-      "path": "../Yad2.SERVICE/Yad2.SERVICE.csproj",
-      "msbuildProject": "../Yad2.SERVICE/Yad2.SERVICE.csproj"
+      "path": "../Music.Data/Music.Data.csproj",
+      "msbuildProject": "../Music.Data/Music.Data.csproj"
+    },
+    "Music.Service/1.0.0": {
+      "type": "project",
+      "path": "../Music.Service/Music.Service.csproj",
+      "msbuildProject": "../Music.Service/Music.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Yad2.SERVICE >= 1.0.0"
+    "net8.0": [
+      "Music.Core >= 1.0.0",
+      "Music.Data >= 1.0.0",
+      "Music.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,29 +71,36 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.API\\Yad2.API.csproj",
-      "projectName": "Yad2.API",
-      "projectPath": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.API\\Yad2.API.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Api\\Music.Api.csproj",
+      "projectName": "Music.Api",
+      "projectPath": "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Api\\Music.Api.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.API\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.SERVICE\\Yad2.SERVICE.csproj": {
-              "projectPath": "C:\\Users\\user1\\Documents\\מלי\\שנה ב\\net core\\Yad2\\Yad2.SERVICE\\Yad2.SERVICE.csproj"
+            "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Core\\Music.Core.csproj": {
+              "projectPath": "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Core\\Music.Core.csproj"
+            },
+            "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Data\\Music.Data.csproj": {
+              "projectPath": "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Data\\Music.Data.csproj"
+            },
+            "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Service\\Music.Service.csproj": {
+              "projectPath": "C:\\Users\\user1\\Downloads\\practicumProject-main\\server-dotnet\\Music.Service\\Music.Service.csproj"
             }
           }
         }
@@ -84,8 +112,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -97,11 +125,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }

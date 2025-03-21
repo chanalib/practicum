@@ -4,6 +4,7 @@ using MagicalMusic.CORE.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,17 +14,9 @@ namespace MagicalMusic.CORE
     {
         public MappingProfile()
         {
-            CreateMap<CustomerDTO, Customer>().ReverseMap();
-            CreateMap<CustomerUpdate, Customer>().ReverseMap();
-            CreateMap<CustomerPost, Customer>().ReverseMap();
-
-            CreateMap<ProductDTO, Album>().ReverseMap();
-            CreateMap<ProductGetDTO, Album>().ReverseMap();
-            CreateMap<ProductUpdate, Album>().ReverseMap();
-
-            CreateMap<AdvertisterDTO, Advertiser>().ReverseMap();
-            CreateMap<userPost, Advertiser>().ReverseMap();
-            CreateMap<userUpdate, Advertiser>().ReverseMap();
+            CreateMap<Creator, CreatorDTO>().ReverseMap();
+            CreateMap<Song, SongDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
 
         }
     }

@@ -8,31 +8,31 @@ using System.Threading.Tasks;
 
 namespace MagicalMusic.DATA.Repositories
 {
-    public class RepositoryManager : IRepositoryManager
-    {
-        private readonly DataContext _context;
-        public IRepository<Album> Products { get; }
-        public IRepository<Customer> Customers { get; }
-        public IRepository<Advertiser> Advertisers { get; }
-        public IAlbumrRepository Customer { get; }
-        public ISongRepository Product { get; }
-        public IUserRepository Advertiser { get; }
-        public RepositoryManager(DataContext context, IRepository<Album>
-            productRepository, IRepository<Customer> customerRepository,
-            IRepository<Advertiser> advertiserRepository,
-            IUserRepository advertiser, ISongRepository product, IAlbumrRepository customer)
-        {
-            _context = context;
-            Products = productRepository;
-            Customers = customerRepository;
-            Advertisers = advertiserRepository;
-            Customer = customer;
-            Product = product;
-            Advertiser = advertiser;
-        }
-        public async Task SaveAsync()
-        {
-            await _context.SaveChangesAsync();
-        }
-    }
+    //public class RepositoryManager : IRepositoryManager
+    //{
+    //    private readonly DataContext _context;
+    //    public IRepository<Creator> Products { get; }
+    //    public IRepository<Customer> Customers { get; }
+    //    public IRepository<User> Users { get; }
+    //    public IAlbumrRepository Customer { get; }
+    //    public ISongRepository Product { get; }
+    //    public IUserRepository User { get; }
+    //    public RepositoryManager(DataContext context, IRepository<Creator>
+    //        productRepository, IRepository<Customer> customerRepository,
+    //        IRepository<User> userRepository,
+    //        IUserRepository User, ISongRepository product, IAlbumrRepository customer)
+    //    {
+    //        _context = context;
+    //        Products = productRepository;
+    //        Customers = customerRepository;
+    //        Users = userRepository;
+    //        Customer = customer;
+    //        Product = product;
+    //        User = User;
+    //    }
+    //    public async Task SaveAsync()
+    //    {
+    //        await _context.SaveChangesAsync();
+    //    }
+    //}
 }

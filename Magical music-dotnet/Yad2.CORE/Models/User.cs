@@ -2,13 +2,18 @@
 
 namespace MagicalMusic.CORE.Models
 {
-    public class Advertiser
+    public class User
     {
-        [Key]
+        
         public int Id { get; set; }
+       
         public string Name { get; set; }
-        public string Status { get; set; }
-        public List<Product> products { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+      
+        public string Role { get; set; }
+        public List<Song> Songs { get; set; }
+
 
     }
 }

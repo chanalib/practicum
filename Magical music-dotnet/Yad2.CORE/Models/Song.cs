@@ -7,21 +7,23 @@ namespace MagicalMusic.CORE.Models
 {
     public class Song
     {
-        [Key]
-        public int Id { get; set; }
-
-        public int UserId { get; set; } // Foreign key for user
-        public int AlbumId { get; set; } // Foreign key for album
-
         
-        public string Creator { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-      
-        public string FileType { get; set; }
+        public string MusicStyle { get; set; }
 
-        public DateTime CreatedAt { get; set; } 
+        public TimeSpan SongLength { get; set; }
+       // public string Creator { get; set; }
 
+        public DateTime ReleaseDate { get; set; }
 
-        public List<Album> Products { get; set; } 
+        public string ImageUrl { get; set; }
+
+       // public int SingerId { get; set; } //לבדוק למה?
+        public Creator Creator { get; set; }
+
+        public List<User> Users { get; set; }//לבדוק למה?
+
     }
 }

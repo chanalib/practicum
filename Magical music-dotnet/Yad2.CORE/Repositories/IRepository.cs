@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MagicalMusic.CORE.Repositories
 {
+    //לבדוק מה השימוש שלו
     public interface IRepository<T> where T : class
     {
         IEnumerable<T> GetAll();

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Yad2.CORE",
+    "\\Yad2.CORE\\Models"
   ],
+  "SelectedNode": "\\Yad2.CORE\\Models\\Song.cs",
   "PreviewInSolutionExplorer": false
 }

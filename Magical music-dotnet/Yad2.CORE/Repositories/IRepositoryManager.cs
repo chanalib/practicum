@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace MagicalMusic.CORE.Repositories
 {
+    //לבדוק מה השימוש שלו
+
     public interface IRepositoryManager
     {
-        public IRepository<Product> Products { get; }
-        public IRepository<Customer> Customers { get; }
-        public IRepository<Advertiser> Advertisers { get; }
-        public ICustomerRepository Customer { get; }
-        public IProductRepository Product { get; }
-        public IAdvertiserRepository Advertiser { get; }
-        Task SaveAsync();
+        //public IRepository<Product> Products { get; }
+        //public IRepository<Customer> Customers { get; }
+        //public IRepository<User> Users { get; }
+        //public ICustomerRepository Customer { get; }
+        //public IProductRepository Product { get; }
+        //public IAdvertiserRepository User { get; }
+        //Task SaveAsync();
     }
 }

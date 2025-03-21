@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xZ+PatPAf6PsVfnVAxOS8iR9pF3qerZOY3MYtFxTm2J/6hbJpxfFs1rHMEIY0rnfJdfQ4uwhPj1vQAYsCwlOHg==",
+  "dgSpecHash": "QQSJbtQOvz38NS5Q6d3VjDtKfXXPGwK0c8hNIQMwxFVnjcAioQ6hxRmMwHbU2O/SToxbAngkEWMVEJaCWrKFDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\first-main\\Yad2.SERVICE\\MagicalMusic.SERVICE.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user1\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\user1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\user1\\Documents\\שיעורי בית בתכנות\\תשפה\\פרקטיקום\\Magical music-dotnet\\Yad2.SERVICE\\MagicalMusic.SERVICE.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
