@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using MagicalMusic.CORE;
+using MagicalMusic.DATA;
+
 
 namespace MagicalMusic.DATA.Repositories
 {
@@ -19,14 +22,17 @@ namespace MagicalMusic.DATA.Repositories
 
         public async Task<Song> GetByIdAsync(int id) => await _context.Songs.FindAsync(id);
 
-        public async Task<IEnumerable<Song>> GetSongsByGenreAsync(string genre) => await _context.Songs.Where(s => s.MusicStyle == genre).ToListAsync();
+        public async Task<IEnumerable<Song>> GetSongsByGenreAsync(string MusicStyle) => await _context.Songs.Where(s => s.MusicStyle == MusicStyle).ToListAsync();
 
         public async Task<Song> AddAsync(Song song)
         {
+          
+
             await _context.Songs.AddAsync(song);
             await _context.SaveChangesAsync();
             return song;
         }
+
 
         public async Task<Song> UpdateAsync(int id, Song song)
         {
@@ -41,8 +47,9 @@ namespace MagicalMusic.DATA.Repositories
                 s.ImageUrl = song.ImageUrl;
                 s.ReleaseDate = song.ReleaseDate;
                 s.Creator = song.Creator;
+                s.creatorId = song.creatorId;
                // s.SingerId = song.SingerId;
-                //s.Users = song.Users;
+                //s.User = song.User;
 
             }
             await _context.SaveChangesAsync();

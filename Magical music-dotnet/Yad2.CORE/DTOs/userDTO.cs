@@ -9,12 +9,11 @@ namespace MagicalMusic.CORE.DTOs
 {
     public class UserDTO
     {
-        public string first_name { get; set; }
-        public string last_name { get; set; }
-        public string email { get; set; }
-        public string password { get; set; }
-        
-        public string role { get; set; }
-
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
     }
+
 }

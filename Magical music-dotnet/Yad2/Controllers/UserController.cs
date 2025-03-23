@@ -4,26 +4,31 @@ using MagicalMusic.CORE.Models;
 using MagicalMusic.CORE.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
-
+using Microsoft.Extensions.Logging;
 
 namespace MagicalMusic.API.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : ControllerBase
     {
+
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
+        private readonly ILogger<UserController> _logger;
+
+        public UserController(IUserService userService, ILogger<UserController> logger)
         {
             _userService = userService;
+            _logger = logger;
         }
 
-        [Authorize(policy: "AdminOnly")]
+       // [Authorize(policy: "AdminOnly")]
         [HttpGet]
         public async Task<IEnumerable<User>> GetAll()
         {
+            _logger.LogInformation("Admin user accessed GetAll method.");
             return await _userService.GetAllAsync();
         }
-
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetById(int id)
         {
@@ -31,12 +36,14 @@ namespace MagicalMusic.API.Controllers
             if (user == null) return NotFound();
             return user;
         }
+      
         [HttpPost]
-        public async Task<ActionResult<Creator>> Add([FromBody] UserDTO user)
+        public async Task<ActionResult<User>> Add([FromBody] UserDTO userDto)
         {
-            User u = await _userService.AddAsync(user);
-            return Ok(u);
+            var user = await _userService.AddAsync(userDto);
+            return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
         }
+
 
 
         [HttpPut("{id}")]
@@ -49,7 +56,7 @@ namespace MagicalMusic.API.Controllers
             }
             return Ok(u);
         }
-        [Authorize(policy: "EditorOrAdmin")]
+   //     [Authorize(policy: "EditorOrAdmin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

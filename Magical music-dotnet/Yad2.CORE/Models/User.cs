@@ -12,7 +12,7 @@ namespace MagicalMusic.CORE.Models
         public string Password { get; set; }
       
         public string Role { get; set; }
-        public List<Song> Songs { get; set; }
+        public ICollection<Song> Songs { get; set; } // קשרים לשירים
 
 
     }

@@ -32,15 +32,26 @@ namespace MagicalMusic.API.Controllers
             return song;
         }
 
-        [Authorize(Roles = "Admin")]
-        [HttpPost]
-        public async Task<ActionResult<Song>> Add([FromBody] SongDTO song)
-        {
-            Song s = await _songService.AddAsync(song);
-            return Ok(s);
-        }
+        //  [Authorize(Roles = "Admin")]
 
-        [Authorize(Roles = "Admin")]
+       
+        [HttpPost]
+        public async Task<ActionResult<Song>> Add([FromBody] SongDTO songDto)
+        {
+            //if (  string.IsNullOrEmpty(songDto.Name)|| songDto == null)
+            //{
+            //    return BadRequest("Song data and Name are required.");
+            //}
+
+            var song = await _songService.AddAsync(songDto);
+            return CreatedAtAction(nameof(GetById), new { id = song.Id }, song);
+        }
+       
+        
+        
+      
+
+        //  [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] SongDTO song)
         {
@@ -52,7 +63,7 @@ namespace MagicalMusic.API.Controllers
             return Ok(s);
         }
 
-        [Authorize(Roles = "Admin")]
+     //   [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

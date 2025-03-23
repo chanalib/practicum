@@ -2,12 +2,6 @@
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Security.Claims;
-using Music.Core.Services;
-using Music.Core.Models;
-using Music.Core.Repositories;
-using Music.Data.Repositories;
-using Music.Service;
-using Music.Data;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.OpenApi.Models;

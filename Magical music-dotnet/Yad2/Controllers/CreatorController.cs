@@ -33,12 +33,12 @@ namespace MagicalMusic.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Creator>> Add([FromBody] CreatorDTO Creator)
+        public async Task<ActionResult<Creator>> Add([FromBody] CreatorDTO creatorDTO)
         {
 
-
-            Creator s = await _creatorService.AddAsync(Creator);
-            return Ok(s);
+            var creator = await _creatorService.AddAsync(creatorDTO);
+            return CreatedAtAction(nameof(GetById), new { id = creator.Id }, creator);
+           
         }
 
         [HttpPut("{id}")]

@@ -11,7 +11,7 @@ namespace MagicalMusic.CORE.Models
 
         public string Name { get; set; }
 
-        public List<Song> Songs { get; set; }
+        public List<Song> Song { get; set; }
     }
 }
 

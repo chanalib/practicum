@@ -1,0 +1,583 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\dtos\\songdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\dtos\\songdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.service\\creatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|solutionrelative:yad2.service\\creatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.service\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|solutionrelative:yad2.service\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\repositories\\creatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\repositories\\creatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\repositories\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\repositories\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\dtos\\creatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\dtos\\creatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\controllers\\creatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\controllers\\creatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\repositories\\icreatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\repositories\\icreatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\20250323163351_AddCreatorId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yad2.DATA\\Migrations\\20250323163351_AddCreatorId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\services\\isongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\services\\isongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\repositories\\isongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\repositories\\isongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|solutionrelative:yad2.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\migrations\\20250323030842_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\migrations\\20250323030842_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2\\magicalmusic.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D3F7628-487E-49B1-A77E-9BAE5B2725D2}|Yad2\\MagicalMusic.API.csproj|solutionrelative:yad2\\magicalmusic.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.service\\magicalmusic.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|solutionrelative:yad2.service\\magicalmusic.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.data\\magicalmusic.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{175D106E-0C6B-47FB-B2F1-A371588CD99B}|Yad2.DATA\\MagicalMusic.DATA.csproj|solutionrelative:yad2.data\\magicalmusic.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.core\\magicalmusic.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B4CE538-4DEF-4F25-B314-C4C00D7E1CAB}|Yad2.CORE\\MagicalMusic.CORE.csproj|solutionrelative:yad2.core\\magicalmusic.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.API\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yad2.API\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|c:\\users\\user1\\documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\magical music-dotnet\\yad2.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16B14BBF-D413-4D7D-B896-37E44D543364}|Yad2.SERVICE\\MagicalMusic.SERVICE.csproj|solutionrelative:yad2.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICreatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Repositories\\ICreatorRepository.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Repositories\\ICreatorRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Repositories\\ICreatorRepository.cs",
+              "RelativeToolTip": "Yad2.CORE\\Repositories\\ICreatorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:38:27.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250323163351_AddCreatorId.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\20250323163351_AddCreatorId.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\Migrations\\20250323163351_AddCreatorId.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\20250323163351_AddCreatorId.cs",
+              "RelativeToolTip": "Yad2.DATA\\Migrations\\20250323163351_AddCreatorId.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:33:51.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Models\\Song.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Models\\Song.cs",
+              "RelativeToolTip": "Yad2.CORE\\Models\\Song.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:31:15.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISongService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Services\\ISongService.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Services\\ISongService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Services\\ISongService.cs",
+              "RelativeToolTip": "Yad2.CORE\\Services\\ISongService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:52:13.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISongRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Repositories\\ISongRepository.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Repositories\\ISongRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Repositories\\ISongRepository.cs",
+              "RelativeToolTip": "Yad2.CORE\\Repositories\\ISongRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:52:07.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreatorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\DTOs\\CreatorDTO.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\DTOs\\CreatorDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\DTOs\\CreatorDTO.cs",
+              "RelativeToolTip": "Yad2.CORE\\DTOs\\CreatorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:37:01.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreatorController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\CreatorController.cs",
+              "RelativeDocumentMoniker": "Yad2\\Controllers\\CreatorController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\CreatorController.cs",
+              "RelativeToolTip": "Yad2\\Controllers\\CreatorController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:07:32.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Yad2\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Yad2\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:07:30.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "Yad2.DATA\\Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:04:45.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Services\\IUserService.cs",
+              "RelativeToolTip": "Yad2.CORE\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:08:07.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Yad2.CORE\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:07:53.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Yad2.CORE\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:07:39.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SongController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\SongController.cs",
+              "RelativeDocumentMoniker": "Yad2\\Controllers\\SongController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\SongController.cs",
+              "RelativeToolTip": "Yad2\\Controllers\\SongController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:59:31.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Yad2\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Yad2\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:47:14.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250323030842_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\20250323030842_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\Migrations\\20250323030842_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Migrations\\20250323030842_InitialCreate.cs",
+              "RelativeToolTip": "Yad2.DATA\\Migrations\\20250323030842_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:08:42.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\appsettings.json",
+              "RelativeDocumentMoniker": "Yad2\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\appsettings.json",
+              "RelativeToolTip": "Yad2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T02:45:59.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SongRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Repositories\\SongRepository.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\Repositories\\SongRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Repositories\\SongRepository.cs",
+              "RelativeToolTip": "Yad2.DATA\\Repositories\\SongRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T02:33:04.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Repositories\\CreatorRepository.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\Repositories\\CreatorRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Repositories\\CreatorRepository.cs",
+              "RelativeToolTip": "Yad2.DATA\\Repositories\\CreatorRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T02:32:26.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Yad2.DATA\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:23:16.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\Models\\User.cs",
+              "RelativeToolTip": "Yad2.CORE\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:23:14.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SongDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\DTOs\\SongDTO.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\DTOs\\SongDTO.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\DTOs\\SongDTO.cs",
+              "RelativeToolTip": "Yad2.CORE\\DTOs\\SongDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:22:48.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MagicalMusic.API.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\MagicalMusic.API.csproj",
+              "RelativeDocumentMoniker": "Yad2\\MagicalMusic.API.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\MagicalMusic.API.csproj",
+              "RelativeToolTip": "Yad2\\MagicalMusic.API.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-21T12:21:30.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.API\\Class1.cs",
+              "RelativeDocumentMoniker": "Yad2.API\\Class1.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.API\\Class1.cs",
+              "RelativeToolTip": "Yad2.API\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:07:26.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Program.cs",
+              "RelativeDocumentMoniker": "Yad2\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2\\Program.cs",
+              "RelativeToolTip": "Yad2\\Program.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAADwv5IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:19:31.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\DataContext.cs",
+              "RelativeDocumentMoniker": "Yad2.DATA\\DataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\DataContext.cs",
+              "RelativeToolTip": "Yad2.DATA\\DataContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:07:06.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MagicalMusic.SERVICE.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\MagicalMusic.SERVICE.csproj",
+              "RelativeDocumentMoniker": "Yad2.SERVICE\\MagicalMusic.SERVICE.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\MagicalMusic.SERVICE.csproj",
+              "RelativeToolTip": "Yad2.SERVICE\\MagicalMusic.SERVICE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-21T03:04:58.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MagicalMusic.DATA.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\MagicalMusic.DATA.csproj",
+              "RelativeDocumentMoniker": "Yad2.DATA\\MagicalMusic.DATA.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.DATA\\MagicalMusic.DATA.csproj",
+              "RelativeToolTip": "Yad2.DATA\\MagicalMusic.DATA.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-21T03:04:54.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MagicalMusic.CORE.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj",
+              "RelativeDocumentMoniker": "Yad2.CORE\\MagicalMusic.CORE.csproj",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\MagicalMusic.CORE.csproj",
+              "RelativeToolTip": "Yad2.CORE\\MagicalMusic.CORE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-21T03:04:48.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\UserService.cs",
+              "RelativeDocumentMoniker": "Yad2.SERVICE\\UserService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\UserService.cs",
+              "RelativeToolTip": "Yad2.SERVICE\\UserService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:03:12.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SongService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\SongService.cs",
+              "RelativeDocumentMoniker": "Yad2.SERVICE\\SongService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\SongService.cs",
+              "RelativeToolTip": "Yad2.SERVICE\\SongService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:03:05.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreatorService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\CreatorService.cs",
+              "RelativeDocumentMoniker": "Yad2.SERVICE\\CreatorService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\CreatorService.cs",
+              "RelativeToolTip": "Yad2.SERVICE\\CreatorService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAMwCcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:03:03.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\AuthService.cs",
+              "RelativeDocumentMoniker": "Yad2.SERVICE\\AuthService.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.SERVICE\\AuthService.cs",
+              "RelativeToolTip": "Yad2.SERVICE\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:03:00.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Yad2.CORE\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user1\\Documents\\\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9 \u05D1\u05D9\u05EA \u05D1\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D4\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\Magical music-dotnet\\Yad2.CORE\\MappingProfile.cs",
+              "RelativeToolTip": "Yad2.CORE\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:02:55.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

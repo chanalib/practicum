@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace MagicalMusic.SERVICE
 {
@@ -24,12 +25,22 @@ namespace MagicalMusic.SERVICE
 
         public async Task<IEnumerable<Song>> GetAllAsync() => await _songRepository.GetAllAsync();
         public async Task<Song> GetByIdAsync(int id) => await _songRepository.GetByIdAsync(id);
-        public async Task<Song> AddAsync(SongDTO song)
+        public async Task<Song> AddAsync(SongDTO songDto)
         {
-            var songMap = _mapper.Map<Song>(song);
+            var song = new Song
+            {
+                Name = songDto.Name,
+                MusicStyle = songDto.MusicStyle,
+                SongLength = songDto.SongLength,
+                ReleaseDate = songDto.ReleaseDate,
+                ImageUrl = songDto.ImageUrl,
+                creatorId = songDto.CreatorId
+            };
 
-            return await _songRepository.AddAsync(songMap);
+            return await _songRepository.AddAsync(song);
         }
+
+      
         public async Task<Song> UpdateAsync(int id, SongDTO song)
         {
             var songMap = _mapper.Map<Song>(song);

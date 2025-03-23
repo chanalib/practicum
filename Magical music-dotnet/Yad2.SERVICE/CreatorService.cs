@@ -25,11 +25,19 @@ namespace MagicalMusic.SERVICE
 
         public async Task<IEnumerable<Creator>> GetAllAsync() => await _creatorRepository.GetAllAsync();
         public async Task<Creator> GetByIdAsync(int id) => await _creatorRepository.GetByIdAsync(id);
-        public async Task<Creator> AddAsync(CreatorDTO creator)
+        public async Task<Creator> AddAsync(CreatorDTO creatorDTO)
         {
-            var creatorMap = _mapper.Map<Creator>(creator);
-            return await _creatorRepository.AddAsync(creatorMap);
+            var creator = new Creator
+            {
+                Name = creatorDTO.Name,
+
+            };
+            return await _creatorRepository.AddAsync(creator);
         }
+       
+
+
+       
         public async Task<Creator> UpdateAsync(int id, CreatorDTO Creator)
         {
             var creatorMap = _mapper.Map<Creator>(Creator);

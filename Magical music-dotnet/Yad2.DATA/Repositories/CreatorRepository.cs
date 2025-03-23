@@ -15,7 +15,7 @@ namespace MagicalMusic.DATA.Repositories
         private readonly DataContext _context;
         public creatorRepository(DataContext context) { _context = context; }
 
-        public async Task<IEnumerable<Creator>> GetAllAsync() => await _context.Creators.Include(s => s.Songs).ToListAsync();
+        public async Task<IEnumerable<Creator>> GetAllAsync() => await _context.Creators.Include(s => s.Song).ToListAsync();
 
         public async Task<Creator> GetByIdAsync(int id) => await _context.Creators.FindAsync(id);
 
@@ -27,6 +27,7 @@ namespace MagicalMusic.DATA.Repositories
             await _context.SaveChangesAsync();
             return entity;
         }
+      
 
         public async Task<Creator> UpdateAsync(int id, Creator entity)
         {
@@ -36,13 +37,13 @@ namespace MagicalMusic.DATA.Repositories
             {
 
                 s.Name = entity.Name;
-                s.Songs = entity.Songs;
+                s.Song = entity.Song;
 
             }
             await _context.SaveChangesAsync();
             return s;
-        }
-
+        }  
+       
 
         public async Task DeleteAsync(int id) { var entity = await _context.Creators.FindAsync(id); if (entity != null) { _context.Creators.Remove(entity); await _context.SaveChangesAsync(); } }
     }

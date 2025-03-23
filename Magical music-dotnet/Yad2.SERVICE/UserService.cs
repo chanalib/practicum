@@ -25,16 +25,32 @@ namespace MagicalMusic.SERVICE
 
         public async Task<IEnumerable<User>> GetAllAsync() => await _userRepository.GetAllAsync();
         public async Task<User> GetByIdAsync(int id) => await _userRepository.GetByIdAsync(id);
-        public async Task<User> AddAsync(UserDTO user)
+        public async Task<User> AddAsync(UserDTO userDto)
         {
-            var userMap = _mapper.Map<User>(user);
-            return await _userRepository.AddAsync(userMap);
+            var user = new User
+            {
+                Name = $"{userDto.FirstName} {userDto.LastName}", // שילוב השמות
+                Email = userDto.Email,
+                Password = userDto.Password,
+                Role = userDto.Role
+            };
+
+            return await _userRepository.AddAsync(user);
         }
-        public async Task<User> UpdateAsync(int id, UserDTO user)
+
+        public async Task<User> UpdateAsync(int id, UserDTO userDto)
         {
-            var userMap = _mapper.Map<User>(user);
-            return await _userRepository.UpdateAsync(id, userMap);
+            var user = await _userRepository.GetByIdAsync(id);
+            if (user == null) return null;
+
+            user.Name = $"{userDto.FirstName} {userDto.LastName}"; // עדכון השם
+            user.Email = userDto.Email;
+            user.Password = userDto.Password;
+            user.Role = userDto.Role;
+
+            return await _userRepository.UpdateAsync(id, user);
         }
+
         public async Task DeleteAsync(int id) => await _userRepository.DeleteAsync(id);
         public User Authenticate(string userName, string userPassword)
         {
