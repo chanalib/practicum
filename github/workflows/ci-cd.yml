@@ -1,0 +1,27 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Connect to Server
+      run: |
+        ssh -o StrictHostKeyChecking=no -i /path/to/your/key.pem ec2-user@your-ec2-public-ip "echo 'Connected!'"
+
+    - name: Update Code
+      run: |
+        ssh -o StrictHostKeyChecking=no -i /path/to/your/key.pem ec2-user@your-ec2-public-ip "cd /path/to/your/app && git pull"
+
+    - name: Build Application
+      run: |
+        ssh -o StrictHostKeyChecking=no -i /path/to/your/key.pem ec2-user@your-ec2-public-ip "cd /path/to/your/app && npm run build"
+
+    - name: Run Application
+      run: |
+        ssh -o StrictHostKeyChecking=no -i /path/to/your/key.pem ec2-user@your-ec2-public-ip "cd /path/to/your/app && npm start"
